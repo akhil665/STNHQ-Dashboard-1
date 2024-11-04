@@ -7,6 +7,139 @@ export default function Home() {
       <>
         <div>
           <div className="grow shrink-0">
+            <header className=" relative wrapper  bg-[rgba(246,247,249,1)] ">
+              <nav className="navbar navbar-expand-lg center-nav navbar-light !bg-[#ffffff] ">
+                <div className="container xl:flex-row lg:flex-row !flex-nowrap items-center">
+                  <div className="navbar-brand w-full flexing-responsive">
+                    <a href="index.html">
+                      <img
+                        src="assets/img/govt.colour.png"
+                        alt="image"
+                        className="responsive-image mr-3"
+                      />
+                    </a>
+                    <a href="index.html">
+                      <img
+                        src="assets/img/Ministry_of_Defence-1.webp"
+                        alt="image"
+                        className="responsive-image ml-2 mr-2"
+                      />
+                    </a>
+                    <a href="index.html">
+                      <img
+                        src="assets/img/flag.png"
+                        alt="image"
+                        className="responsive-image ml-2"
+                      />
+                    </a>
+                    <a href="index.html">
+                      <img
+                        src="assets/img/ECHS-removebg-preview.png"
+                        alt="image"
+                        className="responsive-image"
+                      />
+                    </a>
+                  </div>
+                  <div className="responsive-position navbar-collapse offcanvas offcanvas-nav offcanvas-start ">
+                    <div className="offcanvas-header xl:hidden lg:hidden flex items-center justify-between flex-row p-6">
+                      <h3 className="text-white xl:text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0" />
+                      <button
+                        type="button"
+                        className="btn-close btn-close-white mr-[-0.75rem] m-0 p-0 leading-none text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)] focus:outline-0"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      />
+                    </div>
+                    <div className="offcanvas-body xl:!ml-auto lg:!ml-auto flex  flex-col !h-full">
+                      <ul className="navbar-nav ">
+                        <li className="nav-item ">
+                          <a
+                            className="nav-link  font-bold tracking-[-0.01rem] hover:!text-[#d16b86] after:!text-[#d16b86]"
+                            href="./home.html"
+                            data-bs-toggle="dropdown"
+                          >
+                            Home
+                          </a>
+                        </li>
+                        <li className="nav-item dropdown">
+                          <a
+                            className="nav-link dropdown-toggle  font-bold tracking-[-0.01rem] hover:!text-[#d16b86] after:!text-[#d16b86]"
+                            href="#"
+                            data-bs-toggle="dropdown"
+                          >
+                            About
+                          </a>
+                          <ul className="dropdown-menu">
+                            <li className="dropdown dropdown-submenu dropend">
+                              <a
+                                className="dropdown-item hover:!text-[#d16b86] dropdown-toggle"
+                                href="/about"
+                              >
+                                ECHS
+                              </a>
+                            </li>
+                            <li className="dropdown dropdown-submenu dropend">
+                              <a
+                                className="dropdown-item hover:!text-[#d16b86] dropdown-toggle"
+                                href="#"
+                                data-bs-toggle="dropdown"
+                              >
+                                VEER
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="nav-item">
+                          <a
+                            className="nav-link  font-bold tracking-[-0.01rem] hover:!text-[#d16b86] after:!text-[#d16b86]"
+                            href="./contact.html"
+                          >
+                            Contact Us
+                          </a>
+                        </li>
+                        <li className="nav-item">
+                          <a
+                            className="nav-link font-bold tracking-[-0.01rem] hover:!text-[#d16b86] after:!text-[#d16b86]"
+                            href="./gallery.html"
+                          >
+                            Gallery
+                          </a>
+                        </li>
+                        <li className="nav-item hidden xl:block lg:block md:block pt-2">
+                          <a
+                            className="btn btn-sm btn-primary text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)] sheen-effect"
+                            href="./login.html"
+                          >
+                            Login
+                          </a>
+                        </li>
+                      </ul>
+                      <div className="offcanvas-footer xl:hidden lg:hidden">
+                        <div>
+                          <a
+                            href="mailto:first.last@email.com"
+                            className="link-inverse"
+                          >
+                            info@email.com
+                          </a>
+                          <br /> 00 (123) 456 78 90 <br />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="navbar-other w-full !flex !ml-auto">
+                    <ul className="navbar-nav !flex-row !items-center !ml-auto">
+                      <li className="nav-item"></li>
+                      <li className="nav-item xl:hidden lg:hidden">
+                        <button className="hamburger offcanvas-nav-btn">
+                          <span />
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
             <section className="wrapper  bg-[#21262c] opacity-100 ">
               <div
                 className="swiper-container slider-size dots-over relative z-10"
@@ -386,109 +519,7 @@ export default function Home() {
             </div>
           </section>
         </div>
-        <footer className="footer-background opacity-100  text-[#cacaca] mt-5 xl:!mt-24 lg:!mt-24 md:!mt-24">
-          <div className="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
-            <div className="flex flex-wrap mx-[-15px] mt-[-30px] xl:mt-0 lg:mt-0">
-              <div className="md:w-4/12 xl:w-2/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-                <div className="widget text-[#cacaca]">
-                  <img
-                    className="!mb-4 footer-icon"
-                    src="assets/img/veerlogo.png"
-                    srcSet="assets/img/veerlogo.png"
-                    alt="image"
-                  />
-                </div>
-                <a href="index.html">
-                  <img
-                    src="assets/img/ashoka.gif"
-                    alt="image"
-                    className="responsive-image"
-                  />
-                </a>
-              </div>
-              <div className="md:w-3/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-                <div className="widget text-[#cacaca]">
-                  <h4 className="widget-title text-white !mb-3">Quick Links</h4>
-                  <ul className="pl-0 list-none   !mb-0">
-                    <li>
-                      <a
-                        className="text-[#cacaca] hover:text-[#3f78e0]"
-                        href="./home.html"
-                      >
-                        Home
-                      </a>
-                    </li>
-                    <li className="mt-[0.35rem]">
-                      <a
-                        className="text-[#cacaca] hover:text-[#3f78e0]"
-                        href="./gallery.html"
-                      >
-                        Gallery
-                      </a>
-                    </li>
-                    <li className="mt-[0.35rem]">
-                      <a
-                        className="text-[#cacaca] hover:text-[#3f78e0]"
-                        href="./about.html"
-                      >
-                        About Us
-                      </a>
-                    </li>
-                    <li className="mt-[0.35rem]">
-                      <a
-                        className="text-[#cacaca] hover:text-[#3f78e0]"
-                        href="./contact.html"
-                      >
-                        Contact Us
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-                <div className="widget text-[#cacaca]">
-                  <h4 className="widget-title text-white !mb-3">
-                    Get in Touch
-                  </h4>
-                  <a
-                    className="text-[#cacaca] hover:text-[#3f78e0]"
-                    href="mailto:first.last@email.com"
-                  >
-                    shqtrivandrum@echs.gov.in
-                  </a>
-                  <br /> 00 (123) 456 78 90
-                  <p className="!mb-5">
-                    <i className="uil uil-location-pin-alt before:content-['\ebd8']" />{" "}
-                    GX4H+53F,Vivekananda Nagar, Pangodu, Thiruvananthapuram
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="md:w-full xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px]">
-              <div className="widget text-[#cacaca]">
-                <div className="md:w-full xl:w-12/12 lg:w-12/12 w-full flex-[0_0_auto] px-[15px] max-w-full xl:mt-0 lg:mt-0 mt-[30px] ">
-                  <div className="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
-                    <div className="card-body flex-[1_1_auto] p-[40px]">
-                      <a
-                        href="./prisma/index.html"
-                        target="_blank"
-                        className=" hover text-[#f78b77] focus:text-[#f78b77] hover:text-[#f78b77]"
-                      >
-                        Powered by <br />
-                      </a>
-                      <img
-                        src="assets/img/p-logo.png"
-                        className=""
-                        width={150}
-                        alt="image"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+
         <div className="progress-wrap fixed w-[2.3rem] h-[2.3rem] cursor-pointer block shadow-[inset_0_0_0_0.1rem_rgba(128,130,134,0.25)] z-[1010] opacity-0 invisible translate-y-3 transition-all duration-[0.2s] ease-[linear,margin-right] delay-[0s] rounded-[100%] right-6 bottom-6 motion-reduce:transition-none after:absolute after:content-['\e951'] after:text-center after:leading-[2.3rem] after:text-[1.2rem] after:text-[#605dba] after:h-[2.3rem] after:w-[2.3rem] after:cursor-pointer after:block after:z-[1] after:transition-all after:duration-[0.2s] after:ease-linear after:left-0 after:top-0 motion-reduce:after:transition-none after:font-Unicons">
           <svg
             className="progress-circle svg-content"
