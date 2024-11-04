@@ -53,7 +53,7 @@
   height: 32rem !important;
 }
 .background-gif {
-  background-image: url("assets/img/bann.jpg") !important;
+  background-image: url("../../public/assets/img/bann.jpg") !important;
   width: 100% !important;
 }
 .icon-space {
