@@ -1,0 +1,168 @@
+.bg-1 {
+  background-color: #e0ddff;
+}
+
+.margin-setting {
+  margin-bottom: -180px !important;
+}
+
+.content-section:hover {
+  border: 2px solid #32e65f !important;
+}
+.footer-icon {
+  height: 75px !important;
+}
+.footer-background {
+  background-color: #000000 !important;
+}
+.footer-copyright p {
+  color: black !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+}
+.background-gif {
+  background-image: url("../../public//assets/img/bann.jpg") !important;
+  width: 100% !important;
+}
+
+.nav-tabs.nav-tabs-bg .nav-link.active,
+.nav-tabs.nav-tabs-bg .nav-link:hover {
+  box-shadow: 0 0.25rem 1.75rem rgba(30, 34, 40, 0.07);
+}
+.navbar-light.fixed.navbar-stick .nav-link:hover {
+  color: #a07cc5;
+}
+.responsive-image {
+  width: 55%;
+}
+.flexing-responsive {
+  display: flex;
+  margin: 7px;
+}
+.responsive-position {
+  position: absolute !important;
+}
+.color-bgd {
+  background-color: #3647d4;
+}
+.blinker-top {
+  animation: blinker 0.7s infinite;
+}
+.bg-3 {
+  background-color: #e0ddff;
+}
+.address-adjust {
+  margin-right: -95%;
+  color: #ffffff;
+  font-size: 14px;
+}
+.slider-size {
+  height: 500px !important;
+}
+.slider-img-height {
+  height: 500px !important;
+}
+.slider-text {
+  color: black !important;
+}
+@keyframes blinker {
+  20% {
+    color: white;
+  }
+  30% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+}
+.bg-1 {
+  background-color: #e0ddff;
+}
+.sheen-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.sheen-effect::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 50px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotateZ(2deg);
+  transition: all 0.5s ease;
+}
+
+.sheen-effect:hover::before {
+  animation: sheen 0.7s forwards;
+}
+
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+}
+.glow-effect {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.blinker-top {
+  animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+  80% {
+    opacity: 0;
+  }
+}
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg.navbar-light
+    .dropdown:not(.dropdown-submenu)
+    > .dropdown-toggle:after {
+    color: #a07cc5;
+  }
+}
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-collapse .dropdown-toggle:after {
+    color: #ffffff !important;
+  }
+}
